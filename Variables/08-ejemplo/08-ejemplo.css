@@ -1,0 +1,19 @@
+#titulo {
+  font-family: Verdana, sans-serif;
+  font-size: 26px;
+  color: #270bd9;
+}
+
+#descripcion {
+  text-align: center;
+  word-spacing: 20px; /* Espaciado de texto */
+  color: rgb(49, 0, 0);
+  width: 200px;
+  height: 100px;
+  overflow: scroll; /* Cuando sobrepasa las dimensiones se dibuja un scroll. También puede ser hidden */
+}
+
+a {
+  text-decoration: none; /* Quita el subrayado del hipervínculo */
+  color: hsl(119, 93%, 22%);
+}

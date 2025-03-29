@@ -1,0 +1,8 @@
+.mitexto {
+    font-size: 20px;
+}
+
+/* Siendo más específicos... */
+p.mitexto {
+    font-size: 20px;
+}
