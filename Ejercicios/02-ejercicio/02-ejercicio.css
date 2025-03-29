@@ -1,0 +1,16 @@
+a {
+    color: #0B1DF8;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #DBF80B;
+    color: #000000;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: #606160;
+    background-color: #E9FBF7;
+  }
+  

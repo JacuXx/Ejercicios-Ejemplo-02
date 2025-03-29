@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.introduccion {
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.recomendacion {
+  background-color: yellow;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.azul-subrayado {
+  color: blue;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+h3 {
+  background-color: lightgreen;
+  padding: 4px;
+  border: 1px solid green;
+  margin: 4px 0;
+}
+
+.clase {
+  color: red;
+  font-style: italic;
+  background-color: #f9d6d5;
+  border: 1px solid red;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 4px;
+}
+
+#mismo {
+  background-color: #e1c1f7;
+  color: blue;
+  font-size: 13px;
+  padding: 4px;
+  border: 1px solid blue;
+}
+
+/* Estilos para la tabla final */
+.tabla-final {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid gray;
+}
+
+.tabla-final td {
+  border: 1px solid gray;
+  vertical-align: top;
+  padding: 0;
+  width: 33%;
+}
+
+.tabla-final h3 {
+  margin: 1rem 0rem;
+  padding: 4px;
+  color: white;
+}
+
+.tabla-final .clase {
+  margin: 0;
+  padding: 4px;
+  color: orangered;
+  font-style: italic;
+  background-color: white;
+  border: none;
+  height: 3.5rem;
+  align-content: center;
+}
+
+.tabla-final #mismo {
+  margin: 0;
+  padding: 4px;
+  background-color: plum;
+  color: white;
+  font-family: monospace;
+  text-align: right;
+  border: none;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Estilos con texto</title>
+  <link rel="stylesheet" href="01-ejercicio.css">
+</head>
+<body>
+
+  <h2>Estilos: Trabajando con textos.</h2>
+
+  <p class="introduccion">
+    Párrafo sin estilos (no hacemos uso de ninguna CSS): este párrafo está en negrita y cursiva. También ha sido indentado para que no llegue a los bordes. Todo esto realizado desde el panel de propiedades de los ejercicios HTML.
+  </p>
+
+  <p class="recomendacion">
+    Se aconseja el uso de estilos para el diseño de la página, aunque el HTML permite añadir atributos y otras posibilidades para el diseño la tendencia es que se acabe utilizando exclusivamente para los contenidos.
+  </p>
+
+  <p class="azul-subrayado">
+    ESTILO EN LÍNEA (AFECTA ÚNICAMENTE A ESTE ELEMENTO, VA INCORPORADO EN LA ETIQUETA HTML)
+  </p>
+
+  <h3>Estilo para las etiquetas &lt;h3&gt; (afecta a todas las etiquetas &lt;h3&gt;)</h3>
+
+  <p class="clase">
+    Estilo para la <span>.clase</span> (se aplica a cualquier etiqueta cuya clase sea establecida a este tipo). Siempre empieza por un punto…
+  </p>
+
+  <p class="clase">
+    Esto es un texto en una etiqueta &lt;p&gt; pero le aplicamos la misma clase que al párrafo anterior-&gt;.clase
+  </p>
+
+  <p id="mismo">
+    Estilo a un <span>id</span> (se aplica al elemento que esté identificado con ese id). En una página cada id debe ser exclusivo de cada una sola etiqueta (lo que hemos hecho en esta página con un id repetido sería incorrecto)
+  </p>
+
+  <table class="tabla-final">
+    <tr>
+      <td><h3>Texto en h3</h3></td>
+      <td><p class="clase">Texto con .clase</p></td>
+      <td style="background: plum;display: flex;width: 100%;height: 4rem;align-items: center;"><p id="mismo">Misma id</p></td>
+    </tr>
+  </table>
+
+</body>
+</html>

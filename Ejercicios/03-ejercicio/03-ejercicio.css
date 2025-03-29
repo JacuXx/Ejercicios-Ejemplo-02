@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #8A8E2D;
+  }
+  
+  .tabla-scroll {
+    max-height: 100px;
+    overflow-y: auto;
+    border: 2px solid #8A8E2D;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #8A8E2D;
+    color: white;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  tbody tr:hover {
+    background-color: #E5E5E5;
+    color: #2A0101;
+  }
+  
+  .footer {
+    background-color: #8A8E2D;
+    color: #FFFF00;
+    font-weight: bold;
+    padding: 6px;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
